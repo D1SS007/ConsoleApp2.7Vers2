@@ -6,7 +6,8 @@ namespace ConsoleApp2._7
     {
         static void Main(string[] args)
         {
-            int offset = 1;           
+            int offset = 1;
+            int stringsAmount = 3;
             int yNamePosition = 6;
 
             Console.WriteLine("Введите имя");
@@ -14,7 +15,7 @@ namespace ConsoleApp2._7
             Console.WriteLine("введите символ");
             string symbol = Console.ReadLine();
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < stringsAmount; i++)
             {
                 Console.Write("\n" + symbol);
                 
