@@ -16,6 +16,7 @@ namespace ConsoleApp2._7
             {
                 Console.Write(symbol);                
             }
+            
             Console.WriteLine("\n" + symbol + name + symbol);
 
             for (int i = 0; i < name.Length + offset; i++)
